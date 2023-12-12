@@ -12,7 +12,8 @@ public class Test {
         String strOperate = sc.nextLine();
         System.out.println("请输入数字B: ");
         double numberB = Double.parseDouble(sc.nextLine());
-        double result = Operation.getResult(numberA,numberB,strOperate);
+        Operation operate = OperationFactory.createOperate(strOperate);
+        double result = operate.getResult(numberA, numberB);
         System.out.println("结果是: " + result);
 
     }
