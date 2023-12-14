@@ -20,6 +20,6 @@ public class CashReturn extends CashSuper {
         if (moneyCondition > 0 && result >= moneyCondition) {
             result = result - Math.floor(result / moneyCondition) * moneyReturn;
         }
-        return result;
+        return super.acceptCash(result,1);
     }
 }

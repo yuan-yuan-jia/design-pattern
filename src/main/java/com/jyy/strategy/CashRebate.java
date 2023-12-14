@@ -14,6 +14,7 @@ public class CashRebate extends CashSuper{
 
     @Override
     public double acceptCash(double price, int num) {
-        return price * moneyRebate * num;
+        double result = price * num * this.moneyRebate;
+        return super.acceptCash(result,1);
     }
 }
