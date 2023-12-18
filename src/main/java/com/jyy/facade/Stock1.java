@@ -1,4 +1,4 @@
-package com.jyy.appearance;
+package com.jyy.facade;
 
 // 股票1
 public class Stock1 {

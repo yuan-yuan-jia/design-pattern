@@ -1,4 +1,4 @@
-package com.jyy.appearance;
+package com.jyy.facade;
 
 public class Client1 {
 

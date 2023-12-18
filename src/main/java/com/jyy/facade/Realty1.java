@@ -1,4 +1,4 @@
-package com.jyy.appearance;
+package com.jyy.facade;
 
 // 房地产1
 public class Realty1 {
