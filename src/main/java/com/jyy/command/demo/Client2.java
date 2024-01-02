@@ -19,10 +19,11 @@ public class Client2 {
         girl.notifyCommand();
         /// 下单烤羊肉串
         girl.setOrder(bakeMuttonCommand1);
-        /// 通知厨师烤肉
-        girl.notifyCommand();
+       /// 取消一串羊肉串订单
+        girl.cancelOrder(bakeMuttonCommand1);
         /// 下单烤鸡翅
         girl.setOrder(bakeChickenWingCommand2);
+        /// 通知厨师
         girl.notifyCommand();
     }
 }
